@@ -30,9 +30,7 @@
     "switchLabel": "Switch to English",
     "companyHeading": "Dane firmy",
     "companyAddressLabel": "Lokalizacja",
-    "companyAddress": "Bydgoszcz, Polska",
-    "companyForm": "Jednoosobowa działalność gospodarcza",
-    "companyGithub": "Nut Software na GitHubie"
+    "companyAddress": "Bydgoszcz, Polska"
   },
   "en": {
     "title": "Nut Software — software development | Bydgoszcz, Poland",
@@ -65,8 +63,6 @@
     "switchLabel": "Przełącz na polski",
     "companyHeading": "Company details",
     "companyAddressLabel": "Location",
-    "companyAddress": "Bydgoszcz, Poland",
-    "companyForm": "Sole proprietorship",
-    "companyGithub": "Nut Software on GitHub"
+    "companyAddress": "Bydgoszcz, Poland"
   }
 }
