@@ -52,7 +52,8 @@ if __name__ == "__main__":
     }.items():
         trace(ROOT / f"nut-{name}.png", ROOT / f"nut-{name}.svg", f"Nut Software — {title}")
     for source, target, title in [
-        ("03-shell-subtle-code.png", "nut-logo.svg", "Nut Software"),
+        ("03-shell-subtle-code.png", "nut-subtle.svg", "Nut Software — subtle code"),
+        ("04-shell-neutral-code.png", "nut-logo.svg", "Nut Software"),
         ("04-shell-neutral-code.png", "nut-code.svg", "Nut Software — code"),
     ]:
         trace(ROOT / "concepts" / source, ROOT / target, title, board=True)

@@ -23,9 +23,10 @@ Dalsze porównywanie wariantów poprzedziło zmianę głównego logo strony. To 
 
 ## SVG i logo używane na stronie
 
-- `nut-logo.svg`: główny znak ze skorupką i subtelnym symbolem kodu, w nagłówku strony.
+- `nut-logo.svg`: główny znak ze skorupką i większym `</>` na neutralnym tle, wybrany na podstawie wskazanego obrazu, w nagłówku strony.
 - `nut-logo-lime.svg`: ten sam znak w kolorze limonkowym, na ciemnym tle sekcji głównej.
-- `nut-code.svg`: alternatywa z większym symbolem kodu.
+- `nut-code.svg`: zachowana nazwa pliku tego samego znaku z większym symbolem kodu.
+- `nut-subtle.svg`: wcześniejsza alternatywa z subtelnym symbolem.
 - `nut-{aws,python,django,react,database,linux,plain}.svg`: warianty technologiczne i sam orzech.
 - `nut-favicon.svg`: ręcznie uproszczony znak do małych rozmiarów, również jako `/favicon.svg`.
 - `/favicon-32.png` i `/apple-touch-icon.png`: eksporty uproszczonego SVG w rozmiarach 32 i 180 px.
@@ -36,4 +37,4 @@ Do strony używaj `<img src="assets/brand/nut-logo.svg" width="44" height="44" a
 
 Odtworzenie wektorów: zainstaluj Pillow i vtracer 0.6.15, następnie uruchom `python scripts/vectorize_brand.py` z repozytorium. Skrypt czyta zachowane PNG i plansze z `concepts/`; uproszczona ikona jest osobnym, ręcznie opracowanym SVG. Do eksportów PNG użyto Sharp.
 
-`nut-software-vectors.zip` zawiera 11 plików SVG i dokumentację. Pełne archiwum `nut-software-projects.zip` obejmuje także źródłowe PNG, plansze, szkice oraz skrypt wektoryzacji.
+`nut-software-vectors.zip` zawiera 12 plików SVG i dokumentację. Pełne archiwum `nut-software-projects.zip` obejmuje także źródłowe PNG, plansze, szkice oraz skrypt wektoryzacji.
