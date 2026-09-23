@@ -18,7 +18,7 @@ def build():
         "@type": "Organization", "@id": BASE + "/#organization",
         "name": "Nut Software", "legalName": "Nut Software Sebastian Orzechowski",
         "url": BASE + "/", "logo": BASE + "/assets/brand/nut-logo.svg",
-        "email": "sebastian.orzechowski@nut-software.pl", "taxID": "8741681486",
+        "email": "info@nut-software.pl", "taxID": "8741681486",
         "identifier": {"@type": "PropertyValue", "propertyID": "REGON", "value": "386776684"},
         # Publish only the city, including in machine-readable metadata.
         "address": {"@type": "PostalAddress", "addressLocality": "Bydgoszcz", "addressCountry": "PL"},
@@ -70,7 +70,7 @@ def build():
                       styles_url="/styles.css?v=" + hashlib.sha256((ROOT / "styles.css").read_bytes()).hexdigest()[:10],
                       script_url="/site.js?v=" + hashlib.sha256((ROOT / "site.js").read_bytes()).hexdigest()[:10],
                       other_url="/en/" if language == "pl" else "/", other_label=other_language.upper(),
-                      contact_href="mailto:sebastian.orzechowski@nut-software.pl?subject=" + quote(
+                      contact_href="mailto:info@nut-software.pl?subject=" + quote(
                           "Nut Software — kontakt" if language == "pl" else "Nut Software — enquiry"))
         destination = ROOT / ("index.html" if language == "pl" else "en/index.html")
         destination.parent.mkdir(exist_ok=True)
