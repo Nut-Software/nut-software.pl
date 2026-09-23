@@ -94,11 +94,11 @@ h2 { margin-bottom: 27px; font-size: clamp(2.5rem, 4.2vw, 4.8rem); line-height: 
 .site-footer { display: flex; justify-content: space-between; gap: 20px; padding: 34px clamp(24px, 5.4vw, 86px); background: var(--deep); color: #aab5ac; font-size: .75rem; }
 .site-footer a { color: #d8e6bd; text-decoration: none; }
 
-.company-details { padding: 32px clamp(24px, 5.4vw, 86px); border-top: 1px solid var(--line); color: var(--muted); font-size: .86rem; line-height: 1.7; }
+.company-details { padding: 32px clamp(24px, 5.4vw, 86px); border-top: 1px solid var(--line); color: var(--muted); font-size: .86rem; line-height: 1.7; text-align: center; }
 .company-details h2 { margin-bottom: 12px; font-size: 1.15rem; letter-spacing: -.03em; color: var(--ink); }
 .company-details .company-name { margin: 0; color: var(--ink); font-weight: 700; }
 .company-details address { font-style: normal; }
-.company-identifiers { margin: 12px 0 0; }
+.company-identifiers { width: fit-content; margin: 12px auto 0; text-align: left; }
 .company-identifiers > div { display: flex; gap: 12px; }
 .company-identifiers dt { width: 4em; flex-shrink: 0; font-size: .75rem; line-height: 1.95; }
 .company-identifiers dd { margin: 0; font-variant-numeric: tabular-nums; }
