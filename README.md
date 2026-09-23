@@ -22,6 +22,6 @@ Domena docelowa to `nut-software.pl`. Po uzyskaniu dostępu do DNS w Simply.com:
 4. Ustaw na GitHub Pages domenę niestandardową `nut-software.pl`.
 5. Po propagacji DNS sprawdź HTTPS i włącz `Enforce HTTPS` w ustawieniach Pages.
 
-Nie zmieniaj rekordu `panel` (`138.2.171.118`) ani pozostałych rekordów subdomeny. Nie dodawaj `CNAME` do repozytorium, dopóki rekordy DNS nie zostaną ustawione, ponieważ adres pod `github.io` przekieruje wtedy na jeszcze niedziałającą domenę.
+Nie zmieniaj rekordu `panel` (`138.2.171.118`) ani pozostałych rekordów subdomeny. Plik `CNAME` w repozytorium kieruje adres pod `github.io` na domenę docelową.
 
 Treści kontaktowe i opis działalności należy uzgodnić z właścicielem przed rozszerzeniem strony o szczegółową ofertę.
