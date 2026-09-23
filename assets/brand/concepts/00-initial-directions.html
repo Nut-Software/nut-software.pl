@@ -1,0 +1,45 @@
+<div id="nut-logo-kierunki">
+  <style>
+    #nut-logo-kierunki{--ink:#101b22;--lime:#d6f36b;--paper:#f6f5ef;--muted:#aab6b8;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--paper);background:var(--ink);border-radius:22px;padding:30px;max-width:840px;box-sizing:border-box}
+    #nut-logo-kierunki *{box-sizing:border-box}
+    #nut-logo-kierunki .top{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:25px}
+    #nut-logo-kierunki h2{font-size:22px;line-height:1.15;letter-spacing:-.03em;margin:0;font-weight:700}
+    #nut-logo-kierunki .kicker{color:var(--lime);font-size:11px;text-transform:uppercase;letter-spacing:.13em;font-weight:800;margin-bottom:7px}
+    #nut-logo-kierunki .caption{font-size:12px;color:var(--muted);margin:0}
+    #nut-logo-kierunki .cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+    #nut-logo-kierunki .card{border:1px solid #3a484c;background:#17252b;border-radius:16px;padding:17px 15px 14px;min-height:260px;position:relative}
+    #nut-logo-kierunki .card.pick{border-color:var(--lime)}
+    #nut-logo-kierunki .badge{position:absolute;right:13px;top:13px;border-radius:99px;padding:4px 8px;background:var(--lime);color:var(--ink);font-size:9px;font-weight:800;letter-spacing:.04em;text-transform:uppercase}
+    #nut-logo-kierunki .stage{height:143px;display:flex;align-items:center;justify-content:center;gap:11px}
+    #nut-logo-kierunki .mark{width:67px;height:67px;border-radius:16px;background:var(--lime);position:relative;flex:none;overflow:hidden}
+    #nut-logo-kierunki .wordmark{font-size:18px;letter-spacing:-.065em;font-weight:750;white-space:nowrap;color:var(--paper)}
+    #nut-logo-kierunki .wordmark span{color:var(--lime)}
+    #nut-logo-kierunki .letter{color:var(--lime);font-size:11px;letter-spacing:.12em;font-weight:800;margin-bottom:5px}
+    #nut-logo-kierunki h3{font-size:17px;letter-spacing:-.025em;margin:0 0 6px}
+    #nut-logo-kierunki .desc{color:var(--muted);font-size:12px;line-height:1.4;margin:0}
+    #nut-logo-kierunki .small-line{display:flex;align-items:center;gap:9px;border-top:1px solid #304046;padding-top:11px;margin-top:16px;color:var(--muted);font-size:11px}
+    #nut-logo-kierunki .mini{width:23px;height:23px;border-radius:6px;background:var(--lime);position:relative;overflow:hidden;flex:none}
+    #nut-logo-kierunki .shell-a,#nut-logo-kierunki .shell-b,#nut-logo-kierunki .shell-c{position:absolute;inset:12px 16px 12px;border:3px solid var(--ink);border-radius:48% 48% 45% 45% / 40% 40% 59% 59%}
+    #nut-logo-kierunki .shell-a:before,#nut-logo-kierunki .shell-c:before{content:"";position:absolute;left:50%;top:0;bottom:2px;border-left:3px solid var(--ink);border-radius:48%;transform:translateX(-50%) rotate(11deg)}
+    #nut-logo-kierunki .shell-a:after{content:"";position:absolute;width:10px;height:8px;left:50%;top:-6px;transform:translateX(-50%);background:var(--lime);border:3px solid var(--ink);border-bottom:0;border-radius:10px 10px 0 0}
+    #nut-logo-kierunki .shell-b{border-radius:45% 45% 50% 50%;inset:11px 14px 11px}
+    #nut-logo-kierunki .shell-b:before{content:"N";font-weight:900;font-size:36px;letter-spacing:-.08em;position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);color:var(--ink)}
+    #nut-logo-kierunki .shell-c{inset:11px 14px 11px;border-radius:45% 45% 50% 50%}
+    #nut-logo-kierunki .shell-c:before{display:none}
+    #nut-logo-kierunki .shell-c:after{content:"</>";position:absolute;top:48%;left:50%;transform:translate(-50%,-50%);font:800 20px/1 ui-monospace,SFMono-Regular,monospace;letter-spacing:-.17em;color:var(--ink);white-space:nowrap}
+    #nut-logo-kierunki .mini .shell-a,#nut-logo-kierunki .mini .shell-b,#nut-logo-kierunki .mini .shell-c{inset:4px 6px;border-width:1.4px}
+    #nut-logo-kierunki .mini .shell-a:before{border-left-width:1.4px;bottom:0}
+    #nut-logo-kierunki .mini .shell-a:after{width:4px;height:3px;top:-3px;border-width:1.4px}
+    #nut-logo-kierunki .mini .shell-b:before{font-size:12px}
+    #nut-logo-kierunki .mini .shell-c:after{font-size:7px}
+    #nut-logo-kierunki .footer{margin-top:16px;color:var(--muted);font-size:11px;line-height:1.35}
+    @media(max-width:740px){#nut-logo-kierunki{padding:22px}#nut-logo-kierunki .cards{grid-template-columns:1fr}#nut-logo-kierunki .card{min-height:0}#nut-logo-kierunki .stage{height:115px}#nut-logo-kierunki .top{align-items:start;flex-direction:column;gap:7px}}
+  </style>
+  <div class="top"><div><div class="kicker">Nut Software · szkice znaku</div><h2>Orzech + software</h2></div><p class="caption">Ta sama nazwa, trzy kierunki symbolu</p></div>
+  <div class="cards">
+    <div class="card pick"><div class="badge">Propozycja</div><div class="stage"><div class="mark"><div class="shell-a"></div></div><div class="wordmark">nut<span>.</span>software</div></div><div class="letter">01 / NATURALNY</div><h3>Łupina</h3><p class="desc">Prosty kontur orzecha i pojedyncze pęknięcie. Nazwisko jest czytelne w skojarzeniu; znak pozostaje lekki.</p><div class="small-line"><div class="mini"><div class="shell-a"></div></div>Próba w rozmiarze favicon</div></div>
+    <div class="card"><div class="stage"><div class="mark"><div class="shell-b"></div></div><div class="wordmark">nut<span>.</span>software</div></div><div class="letter">02 / MONOGRAM</div><h3>Orzech z N</h3><p class="desc">Litera N wewnątrz łupiny. Bardziej firmowy znak, dobry do aplikacji i mediów społecznościowych.</p><div class="small-line"><div class="mini"><div class="shell-b"></div></div>Próba w rozmiarze favicon</div></div>
+    <div class="card"><div class="stage"><div class="mark"><div class="shell-c"></div></div><div class="wordmark">nut<span>.</span>software</div></div><div class="letter">03 / TECHNOLOGIA</div><h3>Orzech z kodem</h3><p class="desc">Kontur orzecha obejmuje znak kodu. Najbardziej dosłowne połączenie „nut” i „software”.</p><div class="small-line"><div class="mini"><div class="shell-c"></div></div>Próba w rozmiarze favicon</div></div>
+  </div>
+  <div class="footer">Kierunki koncepcyjne · kształt i proporcje można dopracować po wyborze wariantu.</div>
+</div>

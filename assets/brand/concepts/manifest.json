@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-23",
+  "concepts": [
+    {
+      "file": "01-walnut-kernel.png",
+      "title": "Orzech bez skorupki",
+      "note": "Pierwszy zaakceptowany kierunek rysunku orzecha.",
+      "source": "exec-ddb84d74-b02f-47cb-ab65-4ed739ec4423.png"
+    },
+    {
+      "file": "02-shell-lime-code.png",
+      "title": "Skorupka i tag na limonkowym tle",
+      "note": "Duży tag z mocnym akcentem koloru; oceniony jako zbyt dominujący.",
+      "source": "exec-8fd55de3-3384-4cf1-9d62-89aed4682d45.png"
+    },
+    {
+      "file": "03-shell-subtle-code.png",
+      "title": "Skorupka i subtelny znak kodu",
+      "note": "Wariant wskazany do użycia przed dalszym porównywaniem projektów.",
+      "source": "exec-b5d97f6d-ddf1-430d-b110-4909dd133948.png"
+    },
+    {
+      "file": "04-shell-neutral-code.png",
+      "title": "Skorupka i tag na neutralnym tle",
+      "note": "Późniejszy wariant z dużym tagiem; baza sześciu wersji technologicznych.",
+      "source": "exec-876879e6-5be5-438e-8c73-c4a174e0b861.png"
+    }
+  ]
+}
