@@ -1,0 +1,43 @@
+{
+  "generator": "Built-in image_gen",
+  "basePrompt": "Use case: logo-brand, asset for Nut Software's technology illustrations. Edit the supplied reference. Deliver ONLY ONE standalone centered walnut emblem, square format, with generous 10 percent padding and a genuinely transparent background. Remove the wordmark, small duplicate logo, favicon tile, and presentation board entirely. Preserve the large main logo's organic pointed walnut shell outline, recognizable paired convoluted kernel lobes, and their precise visual style and proportions. Flat single color dark navy #101b22, with transparent negative spaces, crisp vector-like shapes, NO shadows/gradients. Keep the large walnut form dominant. Replace ONLY the central </> symbol with the technology-specific symbol described next, within the SAME modest central opening (around 22 percent of overall emblem width). Its background must be transparent like all negative space, no lime badge, no enclosing box. The technology mark must be readable but subordinate to the walnut. No other text outside the emblem. ",
+  "variants": {
+    "aws": "Lowercase aws with curved smile arrow.",
+    "python": "Intertwined Python snakes in monochrome.",
+    "django": "Lowercase dj monogram.",
+    "react": "Three elliptical orbits and central dot.",
+    "database": "Three-tier database cylinder.",
+    "linux": "Monochrome seated Tux penguin.",
+    "plain": "Plain walnut kernel without shell, code or other symbols."
+  },
+  "files": [
+    {
+      "name": "aws",
+      "source": "exec-23a0b335-85d4-4bc5-87ee-b232f5f786a4.png"
+    },
+    {
+      "name": "python",
+      "source": "exec-6d1aa3a8-5a65-40a0-8424-ba441520928d.png"
+    },
+    {
+      "name": "django",
+      "source": "exec-ca34c4df-1e42-4b49-88c1-eae538993b83.png"
+    },
+    {
+      "name": "react",
+      "source": "exec-81cb5697-5cce-4909-a6d4-547302139d8a.png"
+    },
+    {
+      "name": "database",
+      "source": "exec-c12585d5-f3e0-41a7-9319-9a36162999a5.png"
+    },
+    {
+      "name": "linux",
+      "source": "exec-2491db8b-293f-45fe-9390-3d8b952ce2bf.png"
+    },
+    {
+      "name": "plain",
+      "source": "exec-787555e1-6500-4eb5-a511-0d766d1d6a79.png"
+    }
+  ]
+}
