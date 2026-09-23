@@ -81,7 +81,7 @@ function setLanguage(language) {
     element.setAttribute("aria-label", copy[element.dataset.i18nAria]);
   });
   const switcher = document.querySelector(".language-switch");
-  document.querySelector(".button-primary").href = `mailto:sebastian.orzechowski.software@gmail.com?subject=${encodeURIComponent(language === "pl" ? "Nut Software — kontakt" : "Nut Software — enquiry")}`;
+  document.querySelector(".button-primary").href = `mailto:sebastian.orzechowski@nut-software.pl?subject=${encodeURIComponent(language === "pl" ? "Nut Software — kontakt" : "Nut Software — enquiry")}`;
   switcher.textContent = language === "pl" ? "EN" : "PL";
   switcher.setAttribute("aria-label", copy.switchLabel);
   try { localStorage.setItem("nut-software-language", language); } catch (_) { /* Storage may be disabled. */ }
