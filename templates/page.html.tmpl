@@ -77,20 +77,22 @@ ${seo_head}
         </section>
       </main>
 
-      <section class="company-details" aria-labelledby="company-title">
-        <h2 id="company-title">${companyHeading}</h2>
-        <p class="company-name">Nut Software</p>
-        <address>${companyAddress}</address>
-        <dl class="company-identifiers">
-          <div><dt>NIP</dt><dd>8741681486</dd></div>
-          <div><dt>REGON</dt><dd>386776684</dd></div>
-        </dl>
-      </section>
-
       <footer class="site-footer">
-        <span>© <span id="year">2026</span> Nut Software</span>
-        <span>${footerLocation}</span>
-        <a href="#top">${backToTop}</a>
+        <div class="footer-main">
+          <section class="company-details" aria-label="${companyHeading}">
+            <p class="company-name">Nut Software</p>
+            <address>${companyAddress}</address>
+            <dl class="company-identifiers">
+              <div><dt>NIP</dt><dd>8741681486</dd></div>
+              <div><dt>REGON</dt><dd>386776684</dd></div>
+            </dl>
+          </section>
+          <a class="footer-back" href="#top">${backToTop}</a>
+        </div>
+        <div class="footer-bottom">
+          <span>© <span id="year">2026</span> Nut Software</span>
+          <span>${footerTagline}</span>
+        </div>
       </footer>
     </div>
   </body>

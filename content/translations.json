@@ -25,12 +25,11 @@
     "contactKicker": "MASZ POMYSŁ NA PROJEKT?",
     "contactTitle": "Zacznijmy od <em>rozmowy.</em>",
     "contactDescription": "Napisz kilka słów o tym, co chcesz zbudować. Odpowiemy i ustalimy kolejny krok.",
-    "footerLocation": "Bydgoszcz, Polska · Oprogramowanie z myślą o ludziach.",
     "backToTop": "Wróć na górę ↑",
     "switchLabel": "Switch to English",
     "companyHeading": "Dane firmy",
-    "companyAddressLabel": "Lokalizacja",
-    "companyAddress": "Bydgoszcz, Polska"
+    "companyAddress": "Bydgoszcz, Polska",
+    "footerTagline": "Oprogramowanie z myślą o ludziach."
   },
   "en": {
     "title": "Nut Software — software development | Bydgoszcz, Poland",
@@ -58,11 +57,10 @@
     "contactKicker": "HAVE A PROJECT IN MIND?",
     "contactTitle": "Let’s start with <em>a conversation.</em>",
     "contactDescription": "Tell us a little about what you want to build. We’ll reply and agree on the next step.",
-    "footerLocation": "Bydgoszcz, Poland · Software built with people in mind.",
     "backToTop": "Back to top ↑",
     "switchLabel": "Przełącz na polski",
     "companyHeading": "Company details",
-    "companyAddressLabel": "Location",
-    "companyAddress": "Bydgoszcz, Poland"
+    "companyAddress": "Bydgoszcz, Poland",
+    "footerTagline": "Software built with people in mind."
   }
 }
