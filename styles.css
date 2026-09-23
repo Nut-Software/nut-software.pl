@@ -33,7 +33,7 @@ button { font: inherit; }
 .header-actions nav { gap: clamp(20px, 2.6vw, 42px); }
 .header-actions nav a { font-size: .87rem; font-weight: 600; text-decoration: none; transition: color .2s; }
 .header-actions nav a:hover, .site-footer a:hover { color: #698400; }
-.language-switch { min-width: 42px; padding: 8px 0 8px 12px; border: 0; border-left: 1px solid #c9d0c7; background: transparent; color: var(--ink); cursor: pointer; font-family: var(--mono); font-size: .8rem; font-weight: 500; }
+.language-switch { display: inline-block; min-width: 42px; padding: 8px 0 8px 12px; border: 0; border-left: 1px solid #c9d0c7; background: transparent; color: var(--ink); cursor: pointer; font-family: var(--mono); font-size: .8rem; font-weight: 500; text-decoration: none; }
 
 .hero { display: grid; grid-template-columns: minmax(0, 1.07fr) minmax(0, .93fr); min-height: min(660px, calc(100vh - 90px)); }
 .hero-copy { display: flex; flex-direction: column; justify-content: center; align-items: flex-start; padding: 80px clamp(24px, 5.4vw, 86px) 100px; }
@@ -94,6 +94,13 @@ h2 { margin-bottom: 27px; font-size: clamp(2.5rem, 4.2vw, 4.8rem); line-height: 
 .site-footer { display: flex; justify-content: space-between; gap: 20px; padding: 34px clamp(24px, 5.4vw, 86px); background: var(--deep); color: #aab5ac; font-size: .75rem; }
 .site-footer a { color: #d8e6bd; text-decoration: none; }
 
+.company-details { display: grid; grid-template-columns: 1fr 1fr; gap: 28px; padding: 44px clamp(24px, 5.4vw, 86px); border-top: 1px solid var(--line); color: var(--muted); font-size: .86rem; line-height: 1.7; }
+.company-details h2 { margin-bottom: 12px; font-size: 1.15rem; letter-spacing: -.03em; color: var(--ink); }
+.company-details p { margin-bottom: 8px; }
+.company-details strong { color: var(--ink); }
+.company-details address { font-style: normal; }
+.company-details .company-label { font-size: .75rem; margin-bottom: 3px; }
+
 @media (max-width: 950px) {
   .hero { grid-template-columns: 1fr; }
   .hero-copy { min-height: 570px; padding-top: 90px; padding-bottom: 90px; }
@@ -125,6 +132,7 @@ h2 { margin-bottom: 27px; font-size: clamp(2.5rem, 4.2vw, 4.8rem); line-height: 
   .principles p { max-width: none; }
   .contact-email { font-size: 1rem; }
   .site-footer { flex-direction: column; gap: 13px; }
+  .company-details { grid-template-columns: 1fr; gap: 18px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
