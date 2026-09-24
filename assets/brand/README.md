@@ -37,4 +37,15 @@ Do strony używaj `<img src="assets/brand/nut-logo.svg" width="44" height="44" a
 
 Odtworzenie wektorów: zainstaluj Pillow i vtracer 0.6.15, następnie uruchom `python scripts/vectorize_brand.py` z repozytorium. Skrypt czyta zachowane PNG i plansze z `concepts/`; uproszczona ikona jest osobnym, ręcznie opracowanym SVG. Do eksportów PNG użyto Sharp.
 
-`nut-software-vectors.zip` zawiera 12 plików SVG i dokumentację. Pełne archiwum `nut-software-projects.zip` obejmuje także źródłowe PNG, plansze, szkice oraz skrypt wektoryzacji.
+`nut-software-vectors.zip` zawiera 16 plików SVG i dokumentację. Pełne archiwum `nut-software-projects.zip` obejmuje także źródłowe PNG, plansze, szkice oraz skrypt wektoryzacji.
+
+## Dodatkowe warianty technologiczne — 2026-09-24
+
+- `nut-fastapi.svg`: błyskawica, nawiązanie do FastAPI.
+- `nut-terraform.svg`: układ bloków, nawiązanie do infrastruktury jako kodu.
+- `nut-docker.svg`: kontenery i sylwetka wieloryba.
+- `nut-ai-search.svg`: połączone węzły i lupa, symbol AI oraz wyszukiwania.
+
+To autorskie, stylizowane motywy, a nie oficjalne logotypy dostawców. Nowe SVG wykorzystują niezmienioną skorupkę i miąższ z wariantu bazy danych; środkowe symbole narysowano jako geometrię wektorową bez bitmap i fontów. Odtwarzanie: `python3 scripts/build_technology_logos.py` (po ewentualnej ponownej wektoryzacji bazy). Warianty nie mają źródłowych PNG.
+
+Na podstronie kompetencji React jest pokazany przy umiejętnościach uzupełniających; główny zestaw ilustruje backend, chmurę, dane i AI.
