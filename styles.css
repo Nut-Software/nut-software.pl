@@ -115,6 +115,11 @@ h2 { margin-bottom: 27px; font-size: clamp(2.5rem, 4.2vw, 4.8rem); line-height: 
 .skills-focus .eyebrow { color: #aab5ac; font-size: .6rem; margin-bottom: 16px; }
 .skills-focus ul { list-style: none; padding: 0; margin: 0; font-family: var(--display); font-weight: 600; font-size: 1.15rem; }
 .skills-focus li { padding: 12px 0; border-top: 1px solid #ffffff20; }
+.technology-strip { padding: 32px clamp(24px, 5.4vw, 86px) 40px; border-top: 1px solid var(--line); background: #edf0e5; }
+.technology-strip h2 { margin: 0 0 28px; color: var(--muted); font-family: var(--mono); font-size: .72rem; font-weight: 400; letter-spacing: .04em; line-height: 1.6; }
+.technology-logos { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 24px; margin: 0; padding: 0; list-style: none; }
+.technology-logos li { display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center; font-size: .85rem; font-weight: 600; }
+.technology-logos img { display: block; width: min(100%, 112px); height: auto; aspect-ratio: 1; object-fit: contain; }
 .skills-catalog { padding: 64px clamp(24px, 5.4vw, 86px); border-top: 1px solid var(--line); }
 .skills-section-heading .eyebrow { margin-bottom: 20px; }
 .skills-section-heading h2 { font-size: clamp(2.2rem, 3.5vw, 3.6rem); margin-bottom: 44px; }
@@ -153,6 +158,8 @@ h2 { margin-bottom: 27px; font-size: clamp(2.5rem, 4.2vw, 4.8rem); line-height: 
   .skills-person span { display: block; }
   .skills-hero h1 { font-size: clamp(2.6rem, 10vw, 3.8rem); }
   .skills-grid, .skills-additional { grid-template-columns: 1fr; }
+  .technology-logos { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 28px 16px; }
+  .technology-logos img { max-width: 88px; }
   .skills-catalog { padding-top: 48px; padding-bottom: 24px; }
   .skills-additional { padding-top: 20px; gap: 28px; }
   .hero-copy { min-height: 540px; padding-top: 65px; padding-bottom: 72px; }
