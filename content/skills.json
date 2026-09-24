@@ -1,0 +1,54 @@
+{
+  "pl": {
+    "title": "Kompetencje — Python, AWS i AI | Nut Software",
+    "description": "Kompetencje Sebastiana Orzechowskiego: backend Python, Django i FastAPI, AWS, Terraform, AI, wyszukiwanie oraz przetwarzanie danych.",
+    "skillsEyebrow": "NUT SOFTWARE / KOMPETENCJE",
+    "skillsTitle": "Od architektury<br />do <em>działającego systemu.</em>",
+    "skillsSummary": "Projektuję i rozwijam backend, infrastrukturę chmurową oraz systemy przetwarzania danych. Łączę Python i AWS z doświadczeniem w integracjach, wyszukiwaniu i aplikacjach opartych na modelach językowych.",
+    "skillsContact": "Porozmawiajmy o współpracy",
+    "focusLabel": "GŁÓWNE SPECJALIZACJE",
+    "expertiseLabel": "OBSZARY KOMPETENCJI",
+    "expertiseTitle": "W czym mogę pomóc",
+    "additionalTitle": "Szersze spojrzenie na produkt",
+    "additionalText": "Mam również doświadczenie z JavaScriptem, React i Vue.js. Pozwala mi ono współpracować przy funkcjach obejmujących zarówno backend, jak i interfejs użytkownika.",
+    "languagesTitle": "Komunikacja",
+    "languagesText": "Polski — język ojczysty. Angielski — B2.",
+    "skillsContactKicker": "BACKEND / CHMURA / DANE / AI",
+    "skillsContactTitle": "Porozmawiajmy o <em>Twoim projekcie.</em>",
+    "skillsContactText": "Opisz wyzwanie techniczne lub produkt, który chcesz rozwinąć. Ustalimy, w czym mogę pomóc.",
+    "areas": [
+      {"title": "Backend i integracje", "description": "Buduję API, usługi asynchroniczne i integracje z zewnętrznymi systemami. Pracuję z zadaniami w tle, uwierzytelnianiem oraz synchronizacją danych.", "technologies": ["Python", "Django / DRF", "FastAPI", "Celery", "SQLAlchemy / SQLModel", "REST / Protobuf"]},
+      {"title": "AI i wyszukiwanie", "description": "Łączę modele językowe z aplikacjami i danymi. Rozwijam wyszukiwanie semantyczne i po słowach kluczowych, przetwarzanie dokumentów oraz integracje MCP.", "technologies": ["OpenAI", "Anthropic Claude", "DSPy", "MCP", "Pinecone / FAISS", "OpenSearch"]},
+      {"title": "Chmura i infrastruktura", "description": "Zarządzam infrastrukturą AWS jako kodem. Przygotowuję środowiska, automatyzuję wdrożenia i konfiguruję monitoring oraz kontrolę dostępu.", "technologies": ["AWS", "Terraform", "Docker / Compose", "Kubernetes", "Linux", "GitHub Actions / GitLab CI"]},
+      {"title": "Dane i przetwarzanie zdarzeń", "description": "Tworzę procesy ETL, migracje i strumienie danych. Pracuję z bazami relacyjnymi i analitycznymi, danymi geoprzestrzennymi oraz przetwarzaniem zdarzeń.", "technologies": ["PostgreSQL", "DynamoDB / ClickHouse", "Athena / Glue", "Pandas / GeoPandas", "Apache Flink", "EventBridge / Step Functions"]},
+      {"title": "Architektura i rozwój systemów", "description": "Projektuję systemy rozproszone i architekturę opartą na zdarzeniach. Rozwijam istniejące aplikacje, planuję migracje i dzielę duże systemy na mniejsze usługi.", "technologies": ["System design", "Event-driven architecture", "DDD", "SOLID", "Systemy rozproszone"]},
+      {"title": "Jakość i współpraca techniczna", "description": "Prowadzę przeglądy kodu, wspieram innych inżynierów i usprawniam proces dostarczania oprogramowania. Wykorzystuję testy, CI/CD oraz narzędzia AI do pracy nad jakością kodu.", "technologies": ["Code review", "TDD / BDD", "CI/CD", "Mentoring", "Bezpieczeństwo aplikacji"]}
+    ]
+  },
+  "en": {
+    "title": "Skills — Python, AWS and AI | Nut Software",
+    "description": "Sebastian Orzechowski’s skills: Python backend development, Django, FastAPI, AWS, Terraform, AI, search and data processing.",
+    "skillsEyebrow": "NUT SOFTWARE / SKILLS",
+    "skillsTitle": "From architecture<br />to <em>working software.</em>",
+    "skillsSummary": "I design and develop backend services, cloud infrastructure and data processing systems. I combine Python and AWS with experience in integrations, search and applications built around language models.",
+    "skillsContact": "Let’s work together",
+    "focusLabel": "CORE SPECIALISATIONS",
+    "expertiseLabel": "AREAS OF EXPERTISE",
+    "expertiseTitle": "How I can help",
+    "additionalTitle": "A broader view of the product",
+    "additionalText": "I also have experience with JavaScript, React and Vue.js. This helps me collaborate on features spanning both backend services and user interfaces.",
+    "languagesTitle": "Communication",
+    "languagesText": "Polish — native. English — B2.",
+    "skillsContactKicker": "BACKEND / CLOUD / DATA / AI",
+    "skillsContactTitle": "Let’s talk about <em>your project.</em>",
+    "skillsContactText": "Tell me about a technical challenge or a product you want to develop. We can work out where I can help.",
+    "areas": [
+      {"title": "Backend and integrations", "description": "I build APIs, asynchronous services and integrations with external systems. My work includes background tasks, authentication and data synchronisation.", "technologies": ["Python", "Django / DRF", "FastAPI", "Celery", "SQLAlchemy / SQLModel", "REST / Protobuf"]},
+      {"title": "AI and search", "description": "I connect language models with applications and data. I develop semantic and keyword search, document processing and MCP integrations.", "technologies": ["OpenAI", "Anthropic Claude", "DSPy", "MCP", "Pinecone / FAISS", "OpenSearch"]},
+      {"title": "Cloud and infrastructure", "description": "I manage AWS infrastructure as code. I prepare environments, automate deployments and configure monitoring and access controls.", "technologies": ["AWS", "Terraform", "Docker / Compose", "Kubernetes", "Linux", "GitHub Actions / GitLab CI"]},
+      {"title": "Data and event processing", "description": "I build ETL pipelines, migrations and data streams. I work with relational and analytical databases, geospatial data and event processing.", "technologies": ["PostgreSQL", "DynamoDB / ClickHouse", "Athena / Glue", "Pandas / GeoPandas", "Apache Flink", "EventBridge / Step Functions"]},
+      {"title": "Architecture and system evolution", "description": "I design distributed and event-driven systems. I develop existing applications, plan migrations and break large systems into smaller services.", "technologies": ["System design", "Event-driven architecture", "DDD", "SOLID", "Distributed systems"]},
+      {"title": "Quality and technical collaboration", "description": "I review code, support other engineers and improve software delivery practices. I use tests, CI/CD and AI tools to improve code quality.", "technologies": ["Code review", "TDD / BDD", "CI/CD", "Mentoring", "Application security"]}
+    ]
+  }
+}

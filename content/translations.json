@@ -29,7 +29,9 @@
     "switchLabel": "Switch to English",
     "companyHeading": "Dane firmy",
     "companyAddress": "Bydgoszcz, Polska",
-    "footerTagline": "Oprogramowanie z myślą o ludziach."
+    "footerTagline": "Oprogramowanie z myślą o ludziach.",
+    "navSkills": "Kompetencje",
+    "skillsCta": "Poznaj moje kompetencje"
   },
   "en": {
     "title": "Nut Software — software development | Bydgoszcz, Poland",
@@ -61,6 +63,8 @@
     "switchLabel": "Przełącz na polski",
     "companyHeading": "Company details",
     "companyAddress": "Bydgoszcz, Poland",
-    "footerTagline": "Software built with people in mind."
+    "footerTagline": "Software built with people in mind.",
+    "navSkills": "Skills",
+    "skillsCta": "Explore my skills"
   }
 }

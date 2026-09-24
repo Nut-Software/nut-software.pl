@@ -1,0 +1,42 @@
+      <main id="main" class="skills-page">
+        <section class="skills-hero" aria-labelledby="skills-title">
+          <div>
+            <p class="eyebrow"><span class="eyebrow-line"></span>${skillsEyebrow}</p>
+            <p class="skills-person">Sebastian Orzechowski <span>/ Staff Backend Engineer</span></p>
+            <h1 id="skills-title">${skillsTitle}</h1>
+            <p class="skills-summary">${skillsSummary}</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#contact">${skillsContact} <span aria-hidden="true">↗</span></a>
+              <a class="text-link" href="https://www.linkedin.com/in/rewersq/">LinkedIn <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+          <aside class="skills-focus" aria-label="${focusLabel}">
+            <img src="/assets/brand/nut-logo-lime.svg" alt="" width="100" height="120" />
+            <p class="eyebrow">${focusLabel}</p>
+            <ul><li>Python &amp; API</li><li>AWS &amp; Terraform</li><li>AI &amp; Search</li></ul>
+          </aside>
+        </section>
+
+        <section class="skills-catalog" aria-labelledby="expertise-title">
+          <div class="skills-section-heading">
+            <p class="eyebrow">01 / ${expertiseLabel}</p>
+            <h2 id="expertise-title">${expertiseTitle}</h2>
+          </div>
+          <div class="skills-grid">${skill_cards}</div>
+        </section>
+
+        <section class="skills-additional" aria-labelledby="additional-title">
+          <div><h2 id="additional-title">${additionalTitle}</h2><p>${additionalText}</p></div>
+          <div><h3>${languagesTitle}</h3><p>${languagesText}</p></div>
+        </section>
+
+        <section class="contact section" id="contact" aria-labelledby="contact-title">
+          <div class="section-index"><span>02 /</span><span>${contactLabel}</span></div>
+          <div class="contact-content">
+            <p class="contact-kicker">${skillsContactKicker}</p>
+            <h2 id="contact-title">${skillsContactTitle}</h2>
+            <a class="contact-email" href="mailto:info@nut-software.pl">info@nut-software.pl <span aria-hidden="true">↗</span></a>
+            <p>${skillsContactText}</p>
+          </div>
+        </section>
+      </main>

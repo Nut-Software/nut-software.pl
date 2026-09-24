@@ -30,7 +30,7 @@ Treści kontaktowe i opis działalności należy uzgodnić z właścicielem prze
 
 - Polski: `https://nut-software.pl/`; angielski: `https://nut-software.pl/en/`.
 - Obie strony zawierają pełny HTML. Zmiana języka jest zwykłym linkiem i działa bez JavaScriptu; zapisany dawniej język w localStorage nie zmienia adresu ani treści.
-- Edytuj teksty w `content/translations.json` i układ w `templates/page.html.tmpl`, a następnie uruchom `python3 scripts/build_site.py`. Zapisz wygenerowane `index.html`, `en/index.html` i `sitemap.xml` w Git przed publikacją. Nie jest potrzebny dodatkowy build na serwerze.
+- Edytuj teksty w `content/translations.json` (strona główna) i `content/skills.json` (kompetencje). Wspólny układ jest w `templates/page.html.tmpl`, a treści stron w `templates/home.html.tmpl` i `templates/skills.html.tmpl`. Po zmianach uruchom `python3 scripts/build_site.py`. Zapisz wygenerowane `index.html`, `en/index.html`, `kompetencje/index.html`, `en/skills/index.html` i `sitemap.xml` w Git przed publikacją. Nie jest potrzebny dodatkowy build na serwerze.
 - Canonical, wzajemne hreflang (pl/en/x-default), opisy, Open Graph i JSON-LD powstają ze wspólnego generatora. `Organization`, `WebSite` i `WebPage` opisują rzeczywiste dane firmy.
 - Publiczne dane: Nut Software Sebastian Orzechowski, NIP 8741681486, REGON 386776684, **wyłącznie Bydgoszcz, Polska**. Nie dodawaj ulicy, numeru lokalu ani kodu pocztowego do strony, metadanych, schema, źródeł czy dokumentacji. To jawna decyzja właściciela.
 - NIP i REGON sprawdzono w publicznym wykazie Ministerstwa Finansów 23.09.2026. Nazwa została podana przez właściciela i znaleziona w katalogu firm. Status VAT nie jest publikowany, ponieważ może się zmieniać.
@@ -46,3 +46,10 @@ Treści kontaktowe i opis działalności należy uzgodnić z właścicielem prze
 4. Analogicznie można dodać stronę w Bing Webmaster Tools, także importując zweryfikowaną właściwość Google.
 
 Weryfikacja właściciela, zgłoszenie mapy i obecność w indeksie to oddzielne kroki. Publikacja strony sama ich nie potwierdza. Dalszy rozwój oferty, specjalizacji i realizacji wymaga treści od właściciela; nie dopisuj niepotwierdzonych klientów, projektów, certyfikatów ani usług.
+
+## Kompetencje
+
+- Podstrony: `/kompetencje/` i `/en/skills/`, z wzajemnymi linkami językowymi, canonical i wpisami w mapie strony.
+- Treści opracowane z CV właściciela: umiejętności i obszary zastosowań, bez historii zatrudnienia, nazw pracodawców, prywatnych danych kontaktowych oraz identyfikatorów certyfikatów. Źródłowy PDF pozostaje poza repozytorium.
+- LinkedIn właściciela jest podlinkowany; jego treści nie udało się odczytać podczas przygotowywania strony.
+- Generator odtwarza wszystkie cztery strony. Zapisuj wszystkie wygenerowane strony i mapę wraz ze zmianami źródeł.
